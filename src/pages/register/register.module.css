@@ -1,0 +1,47 @@
+.registerContainer {
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.formHeading {
+  text-align: center;
+}
+
+.btnsWrapper {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0px;
+}
+
+.cancelBtn,
+.registerBtn {
+  padding: 5px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.registerBtn {
+  background-color: var(--primaryClr);
+}
+
+.cancelBtn {
+  background-color: var(--myred);
+}
+
+.textArea {
+  resize: none;
+}
+
+@media screen and (max-width: 768px) {
+  .registerContainer {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .registerContainer {
+    width: 80%;
+  }
+}

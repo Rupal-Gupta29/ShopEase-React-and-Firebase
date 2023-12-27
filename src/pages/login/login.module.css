@@ -1,0 +1,43 @@
+.loginContainer {
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.formHeading {
+  text-align: center;
+}
+
+.cancelBtn,
+.loginBtn {
+  padding: 5px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.loginBtn {
+  background-color: var(--primaryClr);
+}
+
+.cancelBtn {
+  background-color: var(--myred);
+}
+
+.btnsWrapper {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .loginContainer {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .loginContainer {
+    width: 80%;
+  }
+}

@@ -1,0 +1,39 @@
+.mrp {
+  margin-left: 20px;
+}
+
+.imgWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnWrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.qty {
+  display: inline-block;
+  padding: 0px 15px;
+  border: 1px solid gray;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+.icons {
+  font-size: 25px;
+  color: gray;
+  cursor: pointer;
+}
+
+.img {
+  width: 100px !important;
+}
+
+.deleteBtn {
+  border: none;
+  font-size: small;
+  border-radius: 5px;
+}

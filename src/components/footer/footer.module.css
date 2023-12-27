@@ -1,0 +1,49 @@
+.footer {
+  padding: 20px 30px;
+  background-color: var(--mygray);
+  margin-top: 40px !important;
+}
+
+.iconsWrapper {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px 0px;
+}
+
+.appDesc {
+  text-align: justify;
+  padding-right: 20px;
+}
+
+.footerItemsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.footerItem {
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .appDesc {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .linksWrapper {
+    display: none;
+  }
+
+  .footer {
+    padding: 20px;
+    font-size: small;
+  }
+}

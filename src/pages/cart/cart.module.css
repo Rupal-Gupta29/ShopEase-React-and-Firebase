@@ -1,0 +1,53 @@
+.cartContainer {
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.subtotalWrapper {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.summaryWrapper {
+  padding: 20px;
+}
+
+.cardsWrappers {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.btnsWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.cartPageBtn {
+  flex-grow: 1;
+  background-color: var(--primaryClr);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px 0px;
+}
+
+@media screen and (max-width: 992px) {
+  .cartContainer {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cartContainer {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .btnsWrapper {
+    flex-direction: column;
+  }
+}

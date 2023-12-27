@@ -1,0 +1,33 @@
+.productCard {
+  padding: 20px;
+  margin: 10px;
+}
+
+.imgWrapper {
+  text-align: center;
+}
+
+.cardImg {
+  width: 150px !important;
+  height: 180px !important;
+}
+
+.mrp{
+  color: gray;
+  margin-right: 10px;
+}
+
+.bodyWrapper {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.viewBtn {
+  background-color: var(--primaryClr);
+  padding: 5px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+}

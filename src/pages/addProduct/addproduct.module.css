@@ -1,0 +1,30 @@
+.tableContainer {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.detailsWrapper {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addBtn {
+  padding: 5px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primaryClr);
+}
+
+.heading {
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .tableContainer {
+    width: 90%;
+  }
+}

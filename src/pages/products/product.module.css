@@ -1,0 +1,43 @@
+.productsContainer {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.filterContainer {
+  padding: 20px;
+  background-color: var(--mygray);
+}
+
+.filterDropdown {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid gainsboro;
+}
+
+.filterSubContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.filtersWrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.productsWrapper {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .filtersWrapper {
+    flex-direction: column;
+  }
+  .filterSubContainer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

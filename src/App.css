@@ -1,0 +1,15 @@
+.logo {
+  font-size: 25px !important;
+  font-weight: bold;
+}
+
+.errMsg {
+  color: red;
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

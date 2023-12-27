@@ -1,0 +1,24 @@
+.ordersContainer {
+  margin-top: 40px !important;
+  width: 50%;
+  margin: auto;
+}
+
+.ordersWrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .ordersContainer {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .ordersContainer {
+    width: 90%;
+  }
+}

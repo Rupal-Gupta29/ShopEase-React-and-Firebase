@@ -1,0 +1,31 @@
+.productsContainer {
+  margin-top: 40px;
+  display: flex;
+  overflow: auto;
+  gap: 20px;
+  background: var(--mygray);
+  padding: 20px;
+}
+
+.imgWrapper {
+  padding: 20px;
+  background-color: white;
+}
+
+.productImg {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.explrBtn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+  background-color: var(--primaryClr);
+  color: white;
+}
+
+.btnWrapper {
+  text-align: center;
+  padding: 40px 0px;
+}

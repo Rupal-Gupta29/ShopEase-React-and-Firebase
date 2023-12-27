@@ -1,0 +1,65 @@
+.modalWrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: red;
+  background-color: white;
+  padding: 20px 40px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: rgb(1, 1, 1, 0.7);
+}
+
+.productForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.closeIcon {
+  font-size: 25px;
+  color: black;
+  text-align: end;
+}
+
+.formHeading {
+  text-align: center;
+}
+
+.textArea {
+  resize: none;
+}
+
+.lbl {
+  font-size: small;
+  color: gray;
+}
+
+.addBtn {
+  padding: 5px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--primaryClr);
+  width: fit-content;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .modalWrapper {
+    min-width: 80%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .modalWrapper {
+    padding: 20px;
+  }
+}

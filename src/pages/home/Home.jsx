@@ -29,7 +29,8 @@ const Home = () => {
           className={style.heroBanner + " img-fluid"}
         />
       </section>
-      <section>
+      <section className={style.productsSection}>
+        <h5 className={style.heading}>Deals for you</h5>
         <div className={style.productsContainer}>
           <div className={style.imgWrapper}>
             <img src={camera} alt="" className={style.productImg} />

@@ -1,10 +1,18 @@
-.productsContainer {
+.productsSection{
   margin-top: 40px;
+}
+
+.productsContainer {
   display: flex;
   overflow: auto;
   gap: 20px;
   background: var(--mygray);
   padding: 20px;
+}
+
+.heading{
+  font-weight: bold;
+  margin-left: 15px;
 }
 
 .imgWrapper {
@@ -13,7 +21,7 @@
 }
 
 .productImg {
-  width: 200px !important;
+  width: 180px !important;
   height: 200px !important;
 }
 

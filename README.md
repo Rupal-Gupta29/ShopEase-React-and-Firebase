@@ -16,7 +16,7 @@ Upon checkout, the cart items are transferred to orders, which are also stored i
 #### User's cart
 ![3](https://github.com/Rupal-Gupta29/ShopEase-React-and-Firebase/assets/70842313/dff7a8d6-25e1-4426-8066-1e09f988bb79)
 #### Orders Page
-![4](https://github.com/Rupal-Gupta29/ShopEase-React-and-Firebase/assets/70842313/45a4829b-8112-4ca0-aea0-e04b650175e2)
+![127 0 0 1_5173_addproduct (1)](https://github.com/Rupal-Gupta29/ShopEase-React-and-Firebase/assets/70842313/354ad121-943a-42d7-96ad-8cefb52edca6)
 #### User's Profile
 ![5](https://github.com/Rupal-Gupta29/ShopEase-React-and-Firebase/assets/70842313/f8aafa55-ddfd-468b-bbf6-55876988ad36)
 #### Admin Dashboard
